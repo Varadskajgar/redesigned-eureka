@@ -1,0 +1,27 @@
+name: intory9
+description: Intory9 - premium dark shopping app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  go_router: ^14.2.0
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  pdf: ^3.11.0
+  printing: ^5.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
